@@ -45,6 +45,11 @@ h3, h4 {
 	font-family: 'Merriweather', serif;
 	height: 70px;
 }
+.roll-title{
+	font-size: 14px;
+	color: #8e8f90;
+	text-align: center;
+}
 
 .details-wrapper {
 	display: flex;

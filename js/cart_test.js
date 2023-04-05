@@ -31,19 +31,19 @@ window.addEventListener('click', function (event) {
 										</div>
 										<div class="cart-item__desc">
 											<div class="cart-item__title">${productInfo.title}</div>
-											<div class="cart-item__weight"> / 205г.</div>
+											<div class="cart-item__weight">${productInfo.itemsInBox} / ${productInfo.weight}</div>
 
 											<!-- cart-item__details -->
 											<div class="cart-item__details">
 
 												<div class="items items--small counter-wrapper">
 													<div class="items__control" data-action="minus">-</div>
-													<div class="items__current" data-counter="">1</div>
+													<div class="items__current" data-counter="">${productInfo.counter}</div>
 													<div class="items__control" data-action="plus">+</div>
 												</div>
 
 												<div class="price">
-													<div class="price__currency">250 грн</div>
+													<div class="price__currency">${productInfo.price} грн</div>
 												</div>
 
 											</div>

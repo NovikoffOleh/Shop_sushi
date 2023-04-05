@@ -43,7 +43,8 @@ h3, h4 {
 }
 
 .product-img {
-	width: 265px;
+	/*width: 265px;*/
+	max-width: 100%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -195,6 +196,8 @@ h3, h4 {
 }
 
 .cart-total {
+	margin-left: 20px;
+	margin-right: 20px;
 	font-size: 18px;
 	font-weight: 500;
 }

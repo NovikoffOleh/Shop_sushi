@@ -1,5 +1,5 @@
-ul,
-ul li {
+
+ul, li {
 	list-style: none;
 }
 
@@ -31,7 +31,13 @@ h3, h4 {
 	color: var(--light);
 }
 .lead {
-	font-size: 1.25rem;
+	margin-top: 20px;
+	font-size: 2rem;
+	font-weight: 300;
+	color: yellowgreen;
+}
+.lead1 {
+	font-size: 1.1rem;
 	font-weight: 300;
 	color: var(--light);
 }
@@ -215,7 +221,7 @@ h3, h4 {
 
 .footer {
 	margin-top: auto;
-	padding: 60px 0 50px;
+	/*padding: 60px 0 50px;*/
 	background-color: var(--dark-bg);
 	color: var(--header-text);
 }
@@ -227,9 +233,9 @@ h3, h4 {
 	row-gap: 27px;
 }
 .social {
-	
-	column-gap: 30px;
-	align-items: center;
+	padding: 0;
+	/*column-gap: 30px;
+	align-items: center;*/
 }
 
 .copyright {

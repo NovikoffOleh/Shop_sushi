@@ -160,11 +160,12 @@ h3, h4 {
 }
 
 .cart-item__img img {
-	max-width: 100px;
+	max-width: 50px;
 	height: auto;
 }
 
 .cart-item__desc {
+	
 	padding-top: 15px;
 	padding-left: 15px;
 }

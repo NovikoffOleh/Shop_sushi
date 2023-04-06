@@ -19,12 +19,21 @@ window.addEventListener('click', function name(event) {
 
     // проверка елемента - это Минус?
     if (event.target.dataset.action === 'minus') {
-     
-               
-        if (parseInt(counter.innerText) > 0) {
-       //уменьшаем число в счетчике на 1
-       counter.innerText = --counter.innerText 
-}
+    
+    //принадлежит ли кнопка минус корзине (для удаления товара из корзини)
+    if (event.target.closest('.cart-wrapper') && parseInt(counter.innerText) === 1) {
+    //если кол-во товара меньше 1 то карточка товара удалятся
+           
+    event.target.closest('.cart-item').remove();
+    }
+    
+    //проверка чтоб товар бил больше 1
+    if (parseInt(counter.innerText) > 1) {
+    //уменьшаем число в счетчике на 1
+     counter.innerText = --counter.innerText 
+        }
+        
+       
 
     }
 

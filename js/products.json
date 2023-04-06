@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"title": "Филадельфия хит ролл",
+		"itemsInBox": 6,
+		"weight": 170,
+		"price": 300,
+		"imgSrc": "filadelfiya.jpeg"
+	},
+	{
+		"id": 2,
+		"title": "Капа Макі",
+		"itemsInBox": 6,
+		"weight": 205,
+		"price": 350,
+		"imgSrc": "maki-s-ogurcom.jpeg"
+	},
+	{
+		"id": 3,
+		"title": "Сяке Макі",
+		"itemsInBox": 6,
+		"weight": 222,
+		"price": 430,
+		"imgSrc": "roll_los.jpeg"
+	},
+	{
+		"id": 4,
+		"title": "Авокадо ролл",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 320,
+		"imgSrc": "roll1.jpeg"
+	},
+	{
+		"id": 5,
+		"title": "Філадельфія максі»",
+		"itemsInBox": 6,
+		"weight": 192,
+		"price": 330,
+		"imgSrc": "roll2.jpeg"
+	},
+	{
+		"id": 6,
+		"title": "Запечений ролл з вугрем",
+		"itemsInBox": 6,
+		"weight": 282,
+		"price": 230,
+		"imgSrc": "roll3.jpeg"
+	},
+	{
+		"id": 7,
+		"title": "Запечений ролл з креветкою",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 280,
+		"imgSrc": "roll4.jpeg"
+	},
+	{
+		"id": 8,
+		"title": "Запечений ролл з лососем",
+		"itemsInBox": 6,
+		"weight": 192,
+		"price": 230,
+		"imgSrc": "roll5.jpeg"
+	},
+	{
+		"id": 9,
+		"title": "Темпура-ролл з лососем",
+		"itemsInBox": 6,
+		"weight": 189,
+		"price": 250,
+		"imgSrc": "roll6.jpeg"
+	}
+]

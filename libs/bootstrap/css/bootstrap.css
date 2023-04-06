@@ -390,10 +390,10 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-/*.lead {
+.lead {
   font-size: 1.25rem;
   font-weight: 300;
-}*/
+}
 
 .display-1 {
   font-size: 6rem;
@@ -413,12 +413,11 @@ h6, .h6 {
   line-height: 1.2;
 }
 
-/*.display-4 {
+.display-4 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
-  color: var(--light);
-}*/
+}
 
 hr {
   margin-top: 1rem;
@@ -4558,7 +4557,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #e1dbdb;
+  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;

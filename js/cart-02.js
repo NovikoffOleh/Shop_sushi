@@ -14,7 +14,6 @@ window.addEventListener('click', function (event) {
 			id: card.dataset.id,
 			imgSrc: card.querySelector('.product-img').getAttribute('src'),
 			title: card.querySelector('.item-title').innerText,
-			roll: card.querySelector('.roll-title').innerText,
 			itemsInBox: card.querySelector('[data-items-in-box]').innerText,
 			weight: card.querySelector('.price__weight').innerText,
 			price: card.querySelector('.price__currency').innerText,
@@ -39,7 +38,6 @@ window.addEventListener('click', function (event) {
 									</div>
 									<div class="cart-item__desc">
 										<div class="cart-item__title">${productInfo.title}</div>
-										<div class="roll-title">${productInfo.roll}</div>
 										
 										<div class="cart-item__weight">${productInfo.itemsInBox} / ${productInfo.weight}</div>
 
